@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продвижение на заработанные деньги</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #131a2c;
+            --accent-blue: #00d2ff;
+            --accent-gold: #ffb703;
+            --text-main: #ffffff;
+            --text-muted: #8fa0dd;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-main); padding: 15px 10px; }
+        .container { max-width: 500px; margin: 0 auto; }
+        header { text-align: center; padding: 15px 0; }
+        h1 { font-size: 1.3rem; margin-bottom: 8px; line-height: 1.3; }
+        .subtitle { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 15px; }
+        
+        .price-box {
+            background: #1d273f;
+            border: 1px solid rgba(0, 210, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .price-title { font-size: 0.95rem; font-weight: bold; color: var(--accent-gold); margin-bottom: 10px; text-align: center; }
+        .price-row { display: flex; justify-content: space-between; font-size: 0.85rem; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .price-row:last-child { border-bottom: none; }
+        .price-row span strong { color: var(--accent-blue); }
+
+        .platform-list { display: flex; flex-direction: column; gap: 15px; margin-bottom: 20px; }
+        .platform-card { background-color: var(--card-bg); border-radius: 10px; padding: 15px; border: 1px solid rgba(255, 255, 255, 0.05); }
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .card-title { font-size: 1.15rem; font-weight: bold; }
+        .badge { background: rgba(0, 210, 255, 0.1); color: var(--accent-blue); padding: 3px 8px; border-radius: 10px; font-size: 0.7rem; }
+        .card-text { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 12px; }
+        .btn-order { display: block; text-align: center; background: linear-gradient(90deg, #ffb703, #fb8500); color: #0b0f19; text-decoration: none; font-weight: bold; padding: 10px; border-radius: 6px; font-size: 0.9rem; }
+        
+        .btn-next { display: block; text-align: center; background: #253354; color: #fff; text-decoration: none; font-weight: bold; padding: 12px; border-radius: 6px; font-size: 0.9rem; margin-top: 10px; border: 1px solid var(--accent-blue); }
+        footer { text-align: center; padding: 15px 0; color: var(--text-muted); font-size: 0.75rem; margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.05); }
+        footer a { color: var(--accent-blue); text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Как поднять просмотры и подписки на заработанные деньги</h1>
+        <p class="subtitle">Пустите баланс в дело — раскрутите свой канал, группу или сайт на любой платформе!</p>
+    </header>
+
+    <div class="price-box">
+        <div class="price-title">📊 Примеры тарифов на продвижение:</div>
+        <div class="price-row"><span>👁️ 100 просмотров</span><span><strong>5 ₽</strong></span></div>
+        <div class="price-row"><span>👁️ 1000 просмотров</span><span><strong>50 ₽</strong></span></div>
+        <div class="price-row"><span>🔗 100 переходов на сайт</span><span><strong>20 ₽</strong></span></div>
+        <div class="price-row"><span>🎯 10 живых подписок</span><span><strong>10 ₽</strong></span></div>
+    </div>
+
+    <div class="platform-list">
+        <!-- AVISO -->
+        <div class="platform-card">
+            <div class="card-header"><div class="card-title">Aviso.bz</div><div class="badge">Топ просмотры</div></div>
+            <p class="card-text">Идеально для быстрого нагона просмотров на посты. Можно крутить прямо с баланса заработка.</p>
+            <a href="ВАША_ССЫЛКА_AVISO" class="btn-order" target="_blank">Создать задание</a>
+        </div>
+        <!-- WMRFAST -->
+        <div class="platform-card">
+            <div class="card-header"><div class="card-title">WMRFast.com</div><div class="badge">Быстрые клики</div></div>
+            <p class="card-text">Копеечные и моментальные переходы на любые сайты. Настройка рекламы за полминуты.</p>
+            <a href="ВАША_ССЫЛКА_WMRFAST" class="btn-order" target="_blank">Создать задание</a>
+        </div>
+        <!-- SEO-FAST -->
+        <div class="platform-card">
+            <div class="card-header"><div class="card-title">SEO-FAST.ru</div><div class="badge">Живые подписки</div></div>
+            <p class="card-text">Удобный заказ недорогих подписок в группы и соцсети с защитой от нечестных отчетов.</p>
+            <a href="ВАША_ССЫЛКА_SEOFAST" class="btn-order" target="_blank">Создать задание</a>
+        </div>
+    </div>
+    <!-- Кнопка перехода на второй репозиторий рекламы -->
+    <a href="ССЫЛКА_НА_ВАШ_ВТОРОЙ_ГИТХАБ" class="btn-next">
+        Смотреть еще 3 надежные платформы →
+    </a>
+
+    <!-- Кнопка возврата на первый репозиторий для заработка -->
+    <a href="https://github.io" class="btn-next" style="background: transparent; border-color: var(--accent-gold); color: var(--accent-gold); margin-top: 15px;">
+        ← Сначала заработать деньги на платформах 
+    </a>
+
+    <footer>
+        <p>Проект <a href="https://t.me" target="_blank">Бизнес-Обозрение</a></p>
+    </footer>
+</div>
+</body>
+</html>
